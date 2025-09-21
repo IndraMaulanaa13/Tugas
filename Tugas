@@ -1,0 +1,15 @@
+n = 1
+jumlah = 0
+
+print("Perhitungan:")
+while jumlah <= 2:
+    suku = 1/n
+    jumlah = jumlah + suku
+    print(f"n = {n}: jumlah = {jumlah:.6f}")
+    if jumlah > 2:
+        break
+    n = n + 1
+
+print("=" * 50)
+print(f"Jawaban: n = {n}")
+print(f"Karena: 1 + 1/2 + 1/3 + 1/4 = {jumlah:.6f} > 2")    
